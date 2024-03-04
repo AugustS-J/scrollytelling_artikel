@@ -1,14 +1,63 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import Button from '../components/Button.astro';
----
-<MainLayout title="Titel">
-	<article>
-		<p>Index indhold</p>
-		<p>Stefans nye starter</p>
-		<p class="prose">
-			En masse Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit doloremque accusantium nemo, et optio commodi esse placeat cumque totam modi, in incidunt aliquam, voluptatem debitis omnis beatae accusamus adipisci quasi?
+const schemamarkup = {
 
-		</p>
-	</article>
+};
+---
+<MainLayout title="Historien om Carlsberg" description="">
+	<title>Historien om Carlsberg</title>
+	<section class="font-['Sora'] font-black text-neutral-800">
+		<article class="mb-40">
+			<h1 class="text-6xl sm:text-8xl font-['Work_Sans'] text-center flex justify-center sm:justify-start">Historien om</h1>
+			<h1 class="text-7xl sm:text-9xl font-['Work_Sans'] flex justify-center mb-20">Carlsberg</h1>
+			<div class="sm:grid grid-cols-2 items-center gap-10">
+				<img class="pb-10 sm:pb-0" src="andrey-ilkevich-DjJK9wR70yM-unsplash.jpg" alt="Den ikoniske grønne Carlsberg-flaske">
+				<h2 class="text-lg font-['Open_Sans'] font-black italic">"Det bør være et konstant mål, uanset øjeblikkelig gevinst, at udvikle kunsten at brygge øl til den højst mulige perfektion." - J.C. Jacobsen</h2>
+			</div>
+		</article>
+		<article class="flex flex-col items-center mb-40">
+			<h3 class="text-6xl text-emerald-900 mb-10">1847</h3>
+			<div class="mb-10">
+				<li class="border-2 border-emerald-900 p-2">J.C. Jacobsen grundlægger Carlsberg uden for København.</li>
+			</div>
+				<img class="sm:w-1/2" src="artem-shuba-rFq9-J95858-unsplash.jpg" alt="Den ikoniske Elephant Gate i Carlsberg Byen">
+		</article>
+		<article class="flex flex-col items-center mb-40">
+			<h3 class="text-6xl text-emerald-900 mb-10">1868</h3>
+			<div class="sm:grid grid-cols-2 gap-10 sm:w-3/4">
+				<li class="mb-10 sm:mb-0">Carlsbergs eksport begynder. En tønde øl sendes til Edinburgh, Skotland.</li>
+				<p class="font-['Open_Sans'] border-2 border-emerald-900 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores laudantium fugiat culpa? Voluptatibus modi a, alias velit dicta libero. At neque quasi dolorum repudiandae magni alias assumenda magnam, consectetur cum?</p>
+			</div>
+		</article>
+		<article class="flex flex-col items-center mb-40">
+			<h3 class="text-6xl text-emerald-900 mb-10">1904</h3>
+			<div class="mb-10">
+				<li class="border-2 border-emerald-900 p-4">Carlsbergs velkendte logo introduceres.</li>
+			</div>
+				<img class="sm:w-1/2" src="jeyakumaran-mayooresan-hxQ6jA1RV3s-unsplash.jpg" alt="Carlsbergs logo oplyst på himlen">
+		</article>
+		<article class="flex flex-col items-center mb-40">
+			<h3 class="text-6xl text-emerald-900 mb-10">1913</h3>
+			<div class="sm:grid grid-cols-2 gap-10 sm:w-3/4">
+				<li class="mb-10 sm:mb-0">Carl Jacobsen donerer Den Lille Havfrue til København.</li>
+				<p class="font-['Open_Sans'] border-2 border-emerald-900 p-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo quasi similique, corporis eaque, voluptatum quisquam, magni neque laudantium atque voluptates architecto asperiores voluptas tempora. Provident optio reiciendis reprehenderit sint magni!</p>
+			</div>
+		</article>
+		<article class="flex flex-col items-center mb-40">
+			<h3 class="text-6xl text-emerald-900 mb-10">1968+</h3>
+			<div class="sm:grid grid-cols-2 gap-10 sm:w-3/4">
+				<p class="font-['Open_Sans'] border-2 border-emerald-900 p-4 mb-5 sm:mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum dignissimos at, ad accusamus laboriosam quia inventore odit sapiente a commodi molestiae, magni quam temporibus voluptas, voluptatem molestias perspiciatis rerum perferendis!</p>
+				<li>Carlsberg åbner bryggerier i Malawi, Malaysia og Storbritannien.</li>
+			</div>
+		</article>
+		<article class="flex flex-col items-center mb-20">
+			<h3 class="text-6xl text-emerald-900 mb-10">2008</h3>
+				<div class="sm:grid grid-cols-2 gap-10 sm:w-3/4">
+					<li class="mb-10 sm:mb-0">En stor udvidelse gør Carlsberg til det fjerdestørste bryggeri i verden.</li>
+					<p class="font-['Open_Sans'] border-2 border-emerald-900 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque illo labore, ab laudantium optio, officia cum ut perspiciatis accusantium officiis at explicabo necessitatibus qui, corrupti mollitia sed repudiandae tempore voluptate!</p>
+				</div>
+		</article>
+	</section>
 </MainLayout>
+<script></script>
