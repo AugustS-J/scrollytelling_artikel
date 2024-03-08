@@ -33,21 +33,21 @@ const schemamarkup = {
 				<p class="font-['Open_Sans'] leading-relaxed border-2 border-emerald-900 p-4">I begyndelsen af det 19. århundrede begyndte Carlsberg at eksportere sin øl. En tønde blev sendt til Edinburgh, Skotland, hvilket markerede starten på bryggeriets internationale succes.<br><br>Den skotske modtagelse af den danske øl var varm, og det lagde grunden til Carlsbergs fremtidige globale ry og succes.</p>
 			</div>
 		</article>
-		<article class="flex flex-col items-center mb-40">
+		<article class="flex flex-col items-center mb-40 aarstalind3">
 			<h3 class="text-6xl text-emerald-900 leading-relaxed mb-10">1904</h3>
 			<div class="mb-10">
 				<h4 class="leading-loose border-2 border-emerald-900 p-4">Carlsbergs velkendte logo introduceres.</h4>
 			</div>
 				<img class="sm:w-1/2" src="jeyakumaran-mayooresan-hxQ6jA1RV3s-unsplash.jpg" alt="Carlsbergs logo oplyst på himlen">
 		</article>
-		<article class="flex flex-col items-center mb-40">
+		<article class="flex flex-col items-center mb-40 aarstalind4">
 			<h3 class="text-6xl text-emerald-900 leading-relaxed mb-10">1913</h3>
 			<div class="sm:grid grid-cols-2 gap-10 sm:w-3/4">
 				<h4 class="text-xl leading-loose mb-10 sm:mb-0">Carl Jacobsen donerer Den Lille Havfrue til København.</h4>
 				<p class="font-['Open_Sans'] leading-relaxed border-2 border-emerald-900 p-4">I begyndelsen af det 20. århundrede donerede Carl Jacobsen Den Lille Havfrue til København.<br><br>Skulpturen blev øjeblikkeligt et ikon for byen, der tiltrak turister fra hele verden og blev et symbol på Københavns kulturelle arv.</p>
 			</div>
 		</article>
-		<article class="flex flex-col items-center mb-40">
+		<article class="flex flex-col items-center mb-40 aarstalind5">
 			<h3 class="text-6xl text-emerald-900 leading-relaxed mb-10">Fra 1968</h3>
 			<div class="sm:grid grid-cols-2 gap-10 sm:w-3/4">
 				<p class="font-['Open_Sans'] leading-relaxed border-2 border-emerald-900 p-4 mb-10 sm:mb-0">
@@ -55,7 +55,7 @@ const schemamarkup = {
 				<h4 class="text-xl leading-loose">Carlsberg åbner bryggerier i Malawi, Malaysia og Storbritannien.</h4>
 			</div>
 		</article>
-		<article class="flex flex-col items-center mb-20">
+		<article class="flex flex-col items-center mb-20 aarstalind6">
 			<h3 class="text-6xl text-emerald-900 leading-relaxed mb-10">2008</h3>
 				<div class="sm:grid grid-cols-2 gap-10 sm:w-3/4">
 					<h4 class="text-xl leading-loose mb-10 sm:mb-0">En stor udvidelse gør Carlsberg til det fjerdestørste bryggeri i verden.</h4>
@@ -200,11 +200,35 @@ const aarstalelement1 = document.querySelector(".aarstalind1");
 
 inView(aarstalelement1, () => {
 	aarstalelement1.classList.add("fade-in");
-	});
+});
 
 const aarstalelement2 = document.querySelector(".aarstalind2");
 
 inView(aarstalelement2, () => {
 	aarstalelement2.classList.add("scale-in-ver-center");
-	});
+});
+
+const aarstalelement3 = document.querySelector(".aarstalind3");
+
+inView(aarstalelement3, () => {
+	aarstalelement3.classList.add("fade-in");
+});
+
+const aarstalelement4 = document.querySelector(".aarstalind4");
+
+inView(aarstalelement4, () => {
+	aarstalelement4.classList.add("scale-in-ver-center");
+});
+
+const aarstalelement5 = document.querySelector(".aarstalind5");
+
+inView(aarstalelement5, () => {
+	aarstalelement5.classList.add("fade-in");
+});
+
+const aarstalelement6 = document.querySelector(".aarstalind6");
+
+inView(aarstalelement6, () => {
+	aarstalelement6.classList.add("puff-in-center");
+});
 </script>
